@@ -44,9 +44,9 @@ async def kukiai(client: Client, message: Message):
 
 
 messageprivate = '''
-Hi, I'm Spike AI ChatBot
-Im bot can talk with you
-hit the button for repo
+Hai, saya AI ChatBot
+Saya bot dapat berbicara dengan Anda
+tekan tombol untuk repo
 '''
 
 messagegroup = '''
@@ -65,7 +65,7 @@ async def start(_, message):
         await message.reply_text(messagegroup)
         return
     else:
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/idzeroidsupport"),
+        buttons = [[InlineKeyboardButton("Support", url="https://t.me/Rizzz_Support"),
                     ]]
         await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
 
