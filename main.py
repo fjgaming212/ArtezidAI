@@ -65,7 +65,7 @@ async def start(_, message):
         await message.reply_text(messagegroup)
         return
     else:
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/Rizzz_Support"),
+        buttons = [[InlineKeyboardButton("Owner📲", url="https://t.me/FJ_GAMING"),
                     ]]
         await message.reply_text(messageprivate, reply_markup=InlineKeyboardMarkup(buttons))
 
